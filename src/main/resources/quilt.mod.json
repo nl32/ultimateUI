@@ -1,14 +1,14 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "io.github.nl32",
+		"id": "ultimate_ui",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Ultimate UI",
+			"description": "UI customization framework and api for modded minecraft.",
 			"contributors": {
-				"Your name here": "Owner"
+				"Starmont": "Owner"
 			},
 			"contact": {
 				"homepage": "https://example.com/",
@@ -19,7 +19,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"client_init": "io.github.nl32.ultimate_ui.UltimateUI"
 		},
 		"depends": [
 			{
